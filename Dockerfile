@@ -1,4 +1,4 @@
-FROM        node:20
+FROM        python:3
 RUN         mkdir /app
 RUN         useradd -d /app roboshop
 WORKDIR     /app
